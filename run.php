@@ -19,7 +19,7 @@ echo "Creator\t\t:\miles\nFacebook\t:\tfb.com/miles\nTelegram\t:\tt.me/miles\n\n
 echo "<[ miles ]>\n";
 echo "____________________\n\n";
 echo "Pesan : $pesan \n\n";
-echo "Nomer dimulai dari 62..\nMasukkan Nomer\t: ";
+echo "Nomer dimulai dari +62..\nMasukkan Nomer\t: ";
 $no = trim(fgets(STDIN));
 echo "Jumlah  Bom\t: ";
 $jumlah = trim(fgets(STDIN));
