@@ -1,7 +1,7 @@
 <?php
 /// fb.com/miles ///
 /// Please don't recode my script ///
-$pesan = file_get_contents('http://aos-file.000webhostapp.com/caping-spam/notes.txt');
+$pesan = file_get_contents('https://raw.githubusercontent.com/glfi/ministry/main/pemula');
 function bom($hp){
 $data = array("mobile" => $hp); $data_string = json_encode($data);
 $ch = curl_init('https://ai.caping.co.id/v2/sms/send');
